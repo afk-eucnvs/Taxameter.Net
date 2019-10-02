@@ -12,4 +12,11 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Taxameter\Taxameter.csproj" />
+    <ProjectReference Include="..\Taxameter.CityBilen\Taxameter.CityBilen.csproj" />
+    <ProjectReference Include="..\Taxameter.ElinRejser\Taxameter.ElinRejser.csproj" />
+    <ProjectReference Include="..\Taxameter.KroneTaxa\Taxameter.KroneTaxa.csproj" />
+    <ProjectReference Include="..\Taxameter.KroneTaxaStorVogn\Taxameter.KroneTaxaStorVogn.csproj" />
+  </ItemGroup>
 </Project>

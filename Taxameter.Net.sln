@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxameter", "Taxameter\Taxameter.csproj", "{73301EDD-9B00-4AEE-B1BE-B2D969D9972A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxameter.KroneTaxa", "Taxameter.KroneTaxa\Taxameter.KroneTaxa.csproj", "{D4B040F6-BBB4-4CA0-AA41-095DE2EA914F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxameter.KroneTaxaStorVogn", "Taxameter.KroneTaxaStorVogn\Taxameter.KroneTaxaStorVogn.csproj", "{0772479D-8304-4DC2-82DC-65FA8116D513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxameter.CityBilen", "Taxameter.CityBilen\Taxameter.CityBilen.csproj", "{7FA03B2A-4934-4FB7-A517-34E10EF7AF92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxameter.ElinRejser", "Taxameter.ElinRejser\Taxameter.ElinRejser.csproj", "{5413A6A6-BB77-43F7-9FAB-5DDF6215FE67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxameter.Tests", "Taxameter.Tests\Taxameter.Tests.csproj", "{F251A64D-E847-468F-9C42-A6D4CA26E358}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +23,25 @@ Global
 		{73301EDD-9B00-4AEE-B1BE-B2D969D9972A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73301EDD-9B00-4AEE-B1BE-B2D969D9972A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73301EDD-9B00-4AEE-B1BE-B2D969D9972A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B040F6-BBB4-4CA0-AA41-095DE2EA914F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B040F6-BBB4-4CA0-AA41-095DE2EA914F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B040F6-BBB4-4CA0-AA41-095DE2EA914F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B040F6-BBB4-4CA0-AA41-095DE2EA914F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0772479D-8304-4DC2-82DC-65FA8116D513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0772479D-8304-4DC2-82DC-65FA8116D513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0772479D-8304-4DC2-82DC-65FA8116D513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0772479D-8304-4DC2-82DC-65FA8116D513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FA03B2A-4934-4FB7-A517-34E10EF7AF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA03B2A-4934-4FB7-A517-34E10EF7AF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA03B2A-4934-4FB7-A517-34E10EF7AF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA03B2A-4934-4FB7-A517-34E10EF7AF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5413A6A6-BB77-43F7-9FAB-5DDF6215FE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5413A6A6-BB77-43F7-9FAB-5DDF6215FE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5413A6A6-BB77-43F7-9FAB-5DDF6215FE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5413A6A6-BB77-43F7-9FAB-5DDF6215FE67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F251A64D-E847-468F-9C42-A6D4CA26E358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F251A64D-E847-468F-9C42-A6D4CA26E358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F251A64D-E847-468F-9C42-A6D4CA26E358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F251A64D-E847-468F-9C42-A6D4CA26E358}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
